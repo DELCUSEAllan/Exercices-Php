@@ -5,6 +5,7 @@ $numero = 23;
 $prix = 35.0;
 // TODO : produire trois affichages distincts.
 
-echo sprintf("%04d\n", $numero);
-echo sprintf("%.2f", $prix);
+echo("Concert de : $artiste \n");
+echo('Artiste : '. $artiste);
+echo sprintf("\n%04d\n%.2f", $numero, $prix);
 
