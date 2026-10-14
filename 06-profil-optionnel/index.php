@@ -11,5 +11,5 @@ echo "isset('nickname') : " . (isset($profile['nickname']) ? 'true' : 'false') .
 
 echo "array_key_exists('nickname') : " . (array_key_exists('nickname', $profile) ? 'true' : 'false') . "\n\n";
 
-$connexion = $lastLogin?->format('d/m/Y') ?? 'jamais';
-echo "Dernière connexion : " . $connexion . "\n";
+$login = $lastLogin?->format('d/m/Y') ?? 'jamais';
+echo "Dernière connexion : " . $login . "\n";
