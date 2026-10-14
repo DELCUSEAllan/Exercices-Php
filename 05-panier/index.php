@@ -16,4 +16,4 @@ $sommePrice = array_reduce($price, fn($total, $pri) => $total + $pri, 0);
 
 $moyenne = $sommePrice / count($disponible);
 
-echo "pric moyen des available : $moyenne\n";
+echo "prix moyen des available : $moyenne\n";
